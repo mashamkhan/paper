@@ -1,0 +1,97 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgba(9,8,77,0.65),rgba(9,8,77,0.65)),url(./images/saul-macias-XeKh2jlvLtc-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;   
+    height: 100vh;
+}
+h3{
+    position: relative;
+    font-family:cursive;
+    left: 50px;
+    top:30px;
+    font-size: 19px;
+    letter-spacing: 3px; 
+    color:#efe;
+    cursor: pointer;
+   
+}
+.nav ul li{
+    display: inline;
+    position: relative;
+    left: 650px;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: #efe;
+    text-transform: uppercase;
+    padding: 15px;
+    
+}
+
+.container{
+    /* width: 350px; */
+    /* background-color: #efefee; */
+    /* box-shadow: 5px 5px  20px 15px rgba(19, 19, 18, 0.3);/ */
+    text-align: center;
+    padding: 30px;
+    margin: 12% auto 0 ;
+    border-radius: 6px;
+    opacity: 0.9;
+    letter-spacing: 1px;
+}
+.h1{
+    color: #efe;
+    text-transform: uppercase;
+    font-size: 250%;
+    font-family: "Gill Sans", sans-serif;
+}
+.para{
+    color: #efe;
+    font-family: "Gill Sans", sans-serif;
+}
+.btn1{
+    height: 40px;
+    border-radius: 20px;
+    width: 130px;
+    text-transform: uppercase;
+    outline: nono;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    font-size: 11px;
+    font-weight: bold;
+}
+.btn2{
+    height: 40px;
+    border-radius: 20px;
+    width: 130px;
+    text-transform: uppercase;
+    outline: nono;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    font-size: 11px;
+    font-weight: bold;
+}
+.btn1:hover{
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+.btn2:hover{
+    background-color: aquamarine;
+    border: 1px solid black;
+    
+}
+ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+    text-decoration-color: aquamarine; /* Blue underline */
+    text-decoration-thickness: 2px; /* Bolder underline */
+    transition: underline 0.2s ease 0.3s;
+    padding: 12px;
+
+}
