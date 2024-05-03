@@ -90,7 +90,7 @@ ul li a{
 ul li a:hover {
     text-decoration: underline; /* Underline on hover */
     text-decoration-color: aquamarine; /* Blue underline */
-    text-decoration-thickness: 2px; /* Bolder underline */
+    text-decoration-thickness: 5px; /* Bolder underline */
     transition: underline 0.2s ease 0.3s;
     padding: 12px;
 
